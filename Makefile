@@ -6,7 +6,7 @@ RM      := rm -fv
 all:
 
 install:
-	@$(LN) $(CURDIR)/70-synaptics.conf $(PREFIX)70-synaptics.conf
+	@$(LN) $(CURDIR)/70-synaptics.conf $(PREFIX)/70-synaptics.conf
 
 clean:
 	@$(RM) $(PREFIX)/70-synaptics.conf
